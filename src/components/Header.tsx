@@ -5,14 +5,15 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
-  // On mount, set initial dark mode from localStorage
+  // On mount, set initial mode from localStorage
   useEffect(() => {
+    document.documentElement.classList.add("dark");
     const saved = localStorage.getItem("theme");
-    if (saved === "dark") {
-      document.documentElement.classList.add("dark");
-      setDarkMode(true);
+    if (saved === "light") {
+      document.documentElement.classList.remove("dark");
+      setDarkMode(false);
     }
   }, []);
 
