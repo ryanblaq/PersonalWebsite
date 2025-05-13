@@ -35,7 +35,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <nav className="space-x-4 flex items-center">
           <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/about" className="hover:underline">Skills</Link>
+          <Link to="/about" className="hover:underline">About Me</Link>
           <Link to="/contact" className="hover:underline">Contact</Link>
         </nav>
 
