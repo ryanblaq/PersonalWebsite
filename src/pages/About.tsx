@@ -41,7 +41,7 @@ const About = () => (
       {skills.map(skill => (
         <span
           key={skill}
-          className="flex items-center gap-2 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 px-4 py-2 rounded-full text-sm shadow"
+          className="flex items-center gap-2 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 dark:hover:text-slate-700 dark:hover:bg-slate-400 hover:text-slate-200 hover:bg-slate-400 px-4 py-2 rounded-full text-sm shadow"
         >
           <FontAwesomeIcon icon={skillIcons[skill]} />
           {skill}
