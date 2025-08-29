@@ -49,7 +49,7 @@ const About = () => (
     <p className="text-slate-700 dark:text-slate-200 text-lg mb-12">I’m a Lead Software Engineer with over a decade of experience building and modernizing enterprise-scale applications. My background spans full-stack development with C#, .NET (Framework/Core/6), SQL Server/PostgreSQL/MySQL, and modern front-end frameworks like React and Angular with TypeScript.</p>
     <p className="text-slate-700 dark:text-slate-200 text-lg mb-12">
     I specialize in taking complex, legacy systems and transforming them into scalable, maintainable, and future-ready solutions. From migrating .NET Framework projects to .NET 6, re-architecting CI/CD pipelines, and designing message-driven workflows with MassTransit and RabbitMQ, to crafting interactive React dashboards and intuitive UIs, I thrive at the intersection of modernization and innovation.</p>
-    <p className="text-slate-700 dark:text-slate-200 text-lg mb-12">
+    <p className="text-slate-700 dark:text-slate-200 text-lg mb-6">
     Beyond the technical, I enjoy mentoring teams, refining processes, and bridging gaps between technology and business goals. My approach blends technical depth with creativity, ensuring not only robust systems but also solutions that empower users and deliver real value.</p>
   </section>
 );
