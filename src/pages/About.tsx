@@ -45,7 +45,7 @@ const About = () => (
         </span>
       ))}
     </div>
-    <h2 className="text-slate-700 dark:text-slate-200 text-3xl font-bold mb-6">About Me</h2>
+    <h2 className="text-slate-700 dark:text-slate-200 text-3xl font-bold mb-6">About</h2>
     <p className="text-slate-700 dark:text-slate-200 text-lg mb-12">I’m a Lead Software Engineer with over a decade of experience building and modernizing enterprise-scale applications. My background spans full-stack development with C#, .NET (Framework/Core/6), SQL Server/PostgreSQL/MySQL, and modern front-end frameworks like React and Angular with TypeScript.</p>
     <p className="text-slate-700 dark:text-slate-200 text-lg mb-12">
     I specialize in taking complex, legacy systems and transforming them into scalable, maintainable, and future-ready solutions. From migrating .NET Framework projects to .NET 6, re-architecting CI/CD pipelines, and designing message-driven workflows with MassTransit and RabbitMQ, to crafting interactive React dashboards and intuitive UIs, I thrive at the intersection of modernization and innovation.</p>
