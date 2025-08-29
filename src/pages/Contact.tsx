@@ -13,7 +13,7 @@ const Contact = () => (
     <div className="flex justify-center gap-10">
       <a
         href="mailto:ryan@ryanblaq.dev"
-        className="text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 text-3xl"
+        className="text-slate-700 dark:text-slate-200 hover:text-slate-400 dark:hover:text-slate-400 text-3xl"
         aria-label="Email"
       >
         <FontAwesomeIcon icon={faEnvelope} />
@@ -22,7 +22,7 @@ const Contact = () => (
         href="https://github.com/ryanblaq"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 text-3xl"
+        className="text-slate-700 dark:text-slate-200 hover:text-slate-400 dark:hover:text-slate-400 text-3xl"
         aria-label="GitHub"
       >
         <FontAwesomeIcon icon={faGithub} />
@@ -31,7 +31,7 @@ const Contact = () => (
         href="https://www.linkedin.com/in/ryan-blaquiere"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-slate-700 dark:text-slate-200 hover:text-blue-600 dark:hover:text-blue-400 text-3xl"
+        className="text-slate-700 dark:text-slate-200 hover:text-slate-400 dark:hover:text-slate-400 text-3xl"
         aria-label="LinkedIn"
       >
         <FontAwesomeIcon icon={faLinkedin} />
